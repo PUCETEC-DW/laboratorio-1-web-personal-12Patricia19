@@ -32,6 +32,28 @@ header p {
   font-size: 18px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 19px;
+  background: #cfd8dc; 
+}
+
+nav ul {
+  display: flex;
+  list-style: none; 
+}
+
+nav li {
+  padding-left: 1rem; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1
+}
+
 section {
   background-color: #94507a;
   padding: 20px;
